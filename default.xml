@@ -30,7 +30,7 @@
            remote="aosp"
            sync-j="4" />
            
-<!-- start candy repos -->
+<!-- Start Candy repos -->
   <project path="build" name="android_build" remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -60,9 +60,9 @@
   <project path="system/extras" name="android_system_extras" remote="candy" />
   <project path="system/vold" name="android_system_vold" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
-<!-- end candy repos -->
+<!-- End Candy repos -->
 
-<!-- cm repos -->
+<!-- Start CM repos -->
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
@@ -87,9 +87,9 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="cm" />
-<!-- end aosp repos -->
+<!-- End CM repos -->
 
-<!-- start slim repos --> 
+<!-- Start Slim repos --> 
   <project path="bootable/recovery" name="bootable_recovery" remote="Slim" revision="mm6.0" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="Slim" revision="mm6.0" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="Slim" revision="mm6.0" />
@@ -173,6 +173,7 @@
   <project path="system/netd" name="android_system_netd" remote="Slim" revision="mm6.0" />
   <project path="system/qcom" name="android_system_qcom" remote="Slim" revision="mm6.0" />
   <project path="system/security" name="android_system_security" remote="Slim" revision="mm6.0" />
+  <!-- End Slim repos -->
   
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="Slim" revision="mm6.0" />
@@ -198,7 +199,7 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="Slim" revision="mm6.0" />
 <!-- end slim repos -->
 
-<!-- start aosp repos -->
+<!-- Start AOSP repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -562,6 +563,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-<!-- end aosp repos -->
+<!-- End AOSP repos -->
  
 </manifest>

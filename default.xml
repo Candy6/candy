@@ -52,6 +52,7 @@
   <project path="hardware/qcom/media-caf/msm8660" name="hardware_qcom_media" remote="candy" revision="c6-caf-8660" />
   <project path="hardware/qcom/msm8994" name="hardware_qcom_msm8994" remote="candy" groups="qcom_msm8994" revision="master" />
   <project path="hardware/ril" name="hardware_ril" remote="candy" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="candy" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
@@ -484,7 +485,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />

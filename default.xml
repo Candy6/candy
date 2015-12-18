@@ -30,7 +30,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <!-- Start Candy repos -->
+<!-- Start Candy repos -->
   <project path="build" name="android_build" remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -174,9 +174,9 @@
   <project path="system/netd" name="android_system_netd" remote="Slim" revision="mm6.0" />
   <project path="system/qcom" name="android_system_qcom" remote="Slim" revision="mm6.0" />
   <project path="system/security" name="android_system_security" remote="Slim" revision="mm6.0" />
-  <!-- End main Slim repos -->
+<!-- End main Slim repos -->
  
-  <!-- Start additional Slim repos --> 
+<!-- Start additional Slim repos --> 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="Slim" revision="mm6.0" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="Slim" revision="mm6.0" />

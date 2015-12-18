@@ -62,6 +62,8 @@
   <project path="hardware/qcom/media-caf/msm8660" name="hardware_qcom_media" remote="candy" revision="c6-caf-8660" />
   <project path="hardware/qcom/msm8994" name="hardware_qcom_msm8994" remote="candy" groups="qcom_msm8994" />
   <project path="hardware/ril" name="hardware_ril" remote="candy" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="candy" />
+  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" revision="c6" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="candy" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="candy" />
@@ -153,7 +155,6 @@
   <project path="libcore" name="android_libcore" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="Slim" revision="mm6.0" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="Slim" revision="mm6.0" />

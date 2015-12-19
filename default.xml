@@ -42,6 +42,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="candy" />
   <project path="external/connectivity" name="android_external_connectivity" remote="candy" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="candy" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
@@ -119,7 +120,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="Slim" revision="mm6.0" />
   <project path="external/okhttp" name="android_external_okhttp" remote="Slim" revision="mm6.0" />
   <project path="external/skia" name="android_external_skia" remote="Slim" revision="mm6.0" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Slim" revision="mm6.0" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="Slim" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="Slim" revision="mm6.0" />

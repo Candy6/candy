@@ -105,6 +105,9 @@
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="cm" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
+  <!-- CAF repos -->
+  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="cm" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
 <!-- End CM repos -->
 
 <!-- Start  main Slim repos --> 
@@ -178,10 +181,7 @@
 <!-- End main Slim repos -->
  
 <!-- Start additional Slim repos --> 
-  <!-- CAF repos -->
-  <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="cm" revision="cm-13.0" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
-
+ 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="Slim" revision="mm6.0" />
 

@@ -199,7 +199,7 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
-  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0.0" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
 <!-- End additional Slim repos -->
 
 <!-- Start AOSP repos -->

@@ -84,6 +84,8 @@
 <!-- End Candy repos -->
 
 <!-- Start CM repos -->
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
@@ -117,8 +119,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="Slim" revision="mm6.0" />
   <project path="external/okhttp" name="android_external_okhttp" remote="Slim" revision="mm6.0" />
   <project path="external/skia" name="android_external_skia" remote="Slim" revision="mm6.0" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="Slim" revision="mm6.0" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="Slim" revision="mm6.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Slim" revision="mm6.0" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="Slim" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
